@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
-s.name         = "MTKit"
-s.version      = "1.4.4"
-s.summary      = "A custom component for the ecomfe's echarts 2."
+s.name         = "MT-ECharts"
+s.version      = "1.4.5"
+s.summary      = "A custom component for the ecomfe's echarts 3.x"
 s.platform     = :ios, "8.0"
 
 s.description  = <<-DESC
@@ -12,12 +12,12 @@ DESC
 s.homepage     = "https://github.com/MaitianRealEstateBrokerageCompany/maimai-echarts"
 s.license      = "MIT"
 
-s.author             = { "HaoSun" => "sunhao.private@foxmail.com" }
-s.source       = { :git => "https://github.com/MaitianRealEstateBrokerageCompany/maimai-echarts.git", :tag => "1.0.8" }
+s.author             = { "ZhengJun" => "sunhao.private@foxmail.com" }
+s.source       = { :git => "https://github.com/MaitianRealEstateBrokerageCompany/maimai-echarts.git", :tag => "1.4.5" }
 s.source_files  = "iOS-Echarts/**/*.{h,m}"
 
 s.resources = "iOS-Echarts/Resources/**"
 
-s.dependency 'Masonry', '~> 1.1.0'
+# s.dependency 'Masonry', '~> 1.1.0'
 s.requires_arc = true
 end
